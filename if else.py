@@ -1,5 +1,6 @@
 marks=input("plz enter the marks\n")
-
+if marks>100:
+    print "plz enter marks value under 100"
 if marks >50:
     print "you did well"
 elif marks <20:
