@@ -4,9 +4,8 @@ p=0
 a=1
 c=0
 for w in range(0,n+1):
-    c=p      #c=1
-    p=p+a  #p= 1,2,3,5
-             #a= 1,1,2
+    c=p      
+    p=p+a           
     a=c
     print p
 
